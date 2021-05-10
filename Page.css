@@ -1,0 +1,35 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  display: none;
+}
+th {
+  border: 2px solid #003333;
+  text-align: left;
+  padding: 8px;
+  background-color: #008080;
+  height: 50px;
+  width: 600px;
+}
+td  {
+  border: 2px solid #003333;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #009999;
+
+}
+tr:nth-child(even) {
+  background-color: #00b3b3;
+}
+.Apple {
+	height: 32px;
+}
+ui-content {
+	height: 100% !important;
+}
+#graderPage {
+	background-color: #00766e! important;
+}
